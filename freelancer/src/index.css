@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  font-family: "krub", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #757575;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
