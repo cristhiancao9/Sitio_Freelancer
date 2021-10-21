@@ -1,8 +1,28 @@
 .nav-bg {
-  background-color: black;
+  background-color: #474b4e;
 }
-
+.navegacion-Principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+@media (min-width: 480px) {
+  .navegacion-Principal {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navegacion-Principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+}
+.navegacion-Principal a:hover {
+  background-color: darkslategrey;
+}
 .contenedor {
-  width: 120rem;
+  max-width: 120rem;
   margin: 0 auto 0 auto;
 }
